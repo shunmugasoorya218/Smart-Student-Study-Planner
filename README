@@ -1,0 +1,134 @@
+# 📚 Smart Student Study Planner
+
+A Python-based Smart Student Study Planner built using **Streamlit** and **SQLite**. This application helps students organize their studies, manage subjects, create personalized schedules, track progress, maintain study streaks, and improve productivity through an interactive interface.
+
+---
+
+## 🚀 Features
+
+- 🔐 User Login System
+- 📖 Subject Management
+- 📅 Personalized Study Schedule
+- ✅ Daily Study Checklist
+- 📊 Progress Tracking
+- 📈 Study Analytics Dashboard
+- ⏱️ Study Timer (Pomodoro)
+- 🔥 Study Streak Tracker
+- 🧠 Revision Booster
+- 🎯 Goal Tracking
+- 📝 Exam Management
+- ⚙️ User Settings
+- 💾 SQLite Database Integration
+- 🎨 Interactive and User-Friendly UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit
+- **Backend:** Python
+- **Database:** SQLite
+- **Libraries:** Pandas, Plotly, Streamlit
+
+---
+
+## 📂 Project Structure
+
+```
+smart_study_planner/
+│
+├── main.py
+├── database/
+│   └── db.py
+├── pages/
+│   ├── dashboard.py
+│   ├── login.py
+│   ├── subjects.py
+│   ├── schedule.py
+│   ├── planner.py
+│   ├── progress.py
+│   ├── analytics.py
+│   ├── exams.py
+│   ├── settings.py
+│   ├── study_timer.py
+│   ├── streak.py
+│   └── revision.py
+├── logic/
+│   ├── scheduler.py
+│   └── stress.py
+└── student.db
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Smart-Student-Study-Planner.git
+```
+
+### Navigate to the Project Folder
+
+```bash
+cd Smart-Student-Study-Planner
+```
+
+### Install Required Packages
+
+```bash
+py -m pip install streamlit pandas plotly
+```
+
+### Run the Application
+
+```bash
+py -m streamlit run main.py
+```
+
+---
+
+## 🎯 Project Objective
+
+The Smart Student Study Planner is designed to help students effectively manage their academic activities by providing tools for planning, tracking, and improving their study habits. It combines productivity features with a simple and intuitive interface to support better time management and consistent learning.
+
+---
+Characteristics:
+
+- Login Page
+- Dashboard
+- Subject Management
+- Study Schedule
+- Analytics Dashboard
+- Study Timer
+- Streak Tracker
+- Revision Booster
+
+---
+
+## 🔮 Future Enhancements
+
+- 🤖 AI-powered Quiz Generator
+- ☁️ Cloud Database Support
+- 📅 Google Calendar Integration
+- 🔔 Study Reminders and Notifications
+- 📱 Mobile Responsive Interface
+- 🌙 Dark Mode
+- 🏅 Achievement Badges and Rewards
+
+---
+
+## 👨‍💻 Developed By
+
+**Shunmuga Soorya S**
+
+M.Sc. Data Science (Integrated)
+
+Coimbatore Institute of Technology
+
+---
+
+## 📄 License
+
+This project is developed for educational purposes.
